@@ -2,13 +2,13 @@ Feature: A new user account can be created if a proper unused username and passw
 
   Scenario: creation successful with correct username and password
     Given new user is selected
-    When unused username "mikko" and valid password "okkim123" and password confirmation "okkim123" are given
+    When unused username "mikko" and valid password "okkim1234" and password confirmation "okkim1234" are given
     Then new user is created
 
 
   Scenario: creation fails with too short username and valid passord
     Given new user is selected
-    When invalid username "mi" is given and valid password "okkim123" and password confirmation "okkim123" are given
+    When invalid username "mi" is given and valid password "okkim1234" and password confirmation "okkim1234" are given
     Then user is not created and error "username should have at least 3 characters" is reported
 
 
