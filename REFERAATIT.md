@@ -1,0 +1,12 @@
+#Is Design Dead?
+
+XP vaatii koodin yksinkertaisuutta ja tuotantoprosessin voimavarojen keskittämistä asiakkaalle arvoa tuottavien ominaisuuksien tuottamiseen, varhaista arkkitehtonista suunnittelua ylenkatsoen. Voisi olettaa, että XP:llä tuotettujen ohjelmistojen arkkitehtuuri ei voi olla laadukasta. Martin Fowler kuitenkin argumentoi, että koherentti, järkevä suunnitelma ohjelmistoksi voi XP:n tapauksessa syntyä inkrementaalisesti. XP:ssä on nimittäin piirteitä, jotka *mahdollistavat* inkrementaalista suunnittelua. 
+
+XP:n ydintoimitusten joukkoon lukeutuvat testaus ja refaktorointi. XP:ssä on myös keskeistä jatkuva integraatio. Fowlerin mukaan perinteisessä ohjelmointikulttuurissa, jossa näitä periaatteita ei noudateta, varhaisessa vaiheessa tekemättä jäänyttä arkkitehtuurisuunnitelmaa on vaikea enää luoda myöhemmin, kun jokaisella koodarilla on luultavasti oma, pikkaisen muista eroava versio ohjelmistosta koneellaan, eikä ohjelman rikki menemistä arkkitehtuuria luotaessa välttämättä edes huomaa, kun testit eivät ole kattavia. *XP:n tapauksessa* jatkuva integraatio kuitenkin takaa ohjelmointitiimin käyttämän koodin yhtenäisyyden, ja testit sen, että rikkimenemiset huomataan. Näin ollen koodia on turvallista refaktoroida myöhemminkin, joten periaatteellinen mahdollisuus jonkinlaisen järkevän kokonaissuunnitelman inkrementaaliselle kehittymiselle on olemassa.
+
+Refaktoroinnin alati läsnä oleva mahdollisuus tekee mahdolliseksi suunnitteluratkaisujen viivyttämisen ja vähentää epäonnistuneisiin suunnitteluratkaisuihin käytettyä energiaa. Lisäksi refaktoroinnin alati läsnä oleva mahdollisuus tekee mahdolliseksi myös suunnitteluratkaisujen *peruuttamisen*, ja sitä kautta ihan oikeasti inkrementaalisen suunnitelman vähittäisen synnyn. *Ei-suunnitelmallisuus*, sikäli kun se johtaa ylläpito-ongelmiin ja ajan kulumiseen asiakkaalle hyötyä tuottamamattomaan toimintaan, toisaalta on XP:n keskeisten tavoitteiden vastaista, joten "rakenteellisuuden" inkrementaaliselle ilmaantuminen on XP -projekteille myös järkevä tavoite (ei ainoastaan jotakin, mikä on teoriassa mahdollista).
+
+XP -projektilla on kuitenkin oltava *halua suunnitella*, Fowler toteaa lopuksi. Ainakin jonkun tiimin jäsenistä on haluttava sitä, ja tehtävä työtä sen eteen. XP:n noudattajien on myös syytä tuntea Design Patternseja, sillä rakenteen tuottamisessa koodiin auttaa rakenteellisten ratkaisujen etukäteistuntemus. Monet keskeiset XP:n puolestapuhujat ovatkin olleetmyös Design Patterns -liikkeen johtohahmoja.
+
+https://martinfowler.com/articles/designDead.html
+
